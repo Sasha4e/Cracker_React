@@ -1,25 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
+import React  from 'react';
 import './App.css';
 
+import Inp from './components/Inp/Inp.js';
+
 function App() {
+ 
+
+
+
+  let a = 10,
+      b = 90,
+      c = 0, 
+      d = (100-(a + b + c));
+
+      
+   
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <div className ="App">
+     <Inp initval={a}/>
+     <Inp initval={b}/>
+     <Inp initval={c}/>
+     <Inp initval={d}/>
+   </div>
   );
 }
 
