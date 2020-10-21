@@ -1,5 +1,6 @@
 import React from 'react';
 import arrow from '../img/arrow-down.png';
+import semen from '../img/semen.png'
 
 function Header() {
     return(
@@ -8,9 +9,10 @@ function Header() {
                     <div className = 'header_first'>
                         <div className='container'>
                             <div className='header_up'>
-                                <a href="#">Total    <span>143€</span></a>
+                                <img className='semen' src={semen} alt='semen'></img>
+                                <a href="#">Total:<span>143€</span></a>
                                 <a href ="#">Details</a>
-                                <img src={arrow} alt='arrow_down'></img>
+                                <img className='arrow' src={arrow} alt='arrow_down'></img>
                             </div>
                         </div> 
                     </div>

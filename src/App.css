@@ -25,14 +25,25 @@ header a {
 }
 
 header a > span {
-  padding-left: 20px;
-  padding-right: 20px;
+  font-size: 12pt;
+  font-weight: 400;
+  padding-left: 25px;
+  padding-right: 35px;
 }
 
-.header_up img {
+.semen {
+  
+  position: relative;
+  top: 8px;
+  right: 78px;
+  
+}
+
+.arrow{
   margin-right: 40px;
   margin-left: 20px;
  }
+
 
 .header_first {
   line-height: 3em; 
@@ -43,6 +54,14 @@ header a > span {
   line-height: 6em; 
   background: url('./img/header-bg2.png') no-repeat center top / cover;
 }
+
+.header_up{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 10pt;
+}
+
+
 
 .header_second ul {
   
