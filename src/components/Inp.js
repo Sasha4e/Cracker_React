@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Inp.css';
+
 
 function Inp(props) {
 const [count, setCount] = useState(props.initval);
@@ -11,7 +11,7 @@ const changeVal = (event) => {
   
 
     return(
-         <div className="App">
+         <div className="inp">
             <input type="range" min="0" max="100" step="1" value={count} onChange = { changeVal } /> 
             <span>{count}%</span>
          </div>

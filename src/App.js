@@ -1,7 +1,8 @@
 import React  from 'react';
 import './App.css';
 
-import Inp from './components/Inp/Inp.js';
+import Inp from './components/Inp.js';
+import Header from './components/Header';
 
 function App() {
  
@@ -16,12 +17,15 @@ function App() {
       
    
   return (
-   <div className ="App">
-     <Inp initval={a}/>
-     <Inp initval={b}/>
-     <Inp initval={c}/>
-     <Inp initval={d}/>
-   </div>
+  <>
+    <Header />
+    {/* <div className ="App">
+      <Inp initval={a}/>
+      <Inp initval={b}/>
+      <Inp initval={c}/>
+      <Inp initval={d}/>
+    </div> */}
+    </>
   );
 }
 
