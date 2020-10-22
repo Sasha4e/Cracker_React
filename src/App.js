@@ -3,7 +3,8 @@ import './App.css';
 
 import Inp from './components/Inp.js';
 import Header from './components/Header';
-import Content from './components/Content'
+import ContentTop from './components/ContentTop';
+import ContentBottom from './components/ContentBottom';
 
 function App() {
  
@@ -21,7 +22,10 @@ function App() {
   <>
     <div className ='wrapper'>
       <Header />
-      <Content />
+      <main>
+        <ContentTop />
+        <ContentBottom />
+      </main>
     </div>
     {/* <div className ="App">
       <Inp initval={a}/>

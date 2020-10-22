@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-  max-width: 760px;
+  max-width: 750px;
   margin: 0 auto;
 }
 
@@ -51,7 +51,7 @@ header a > span {
 
 .arrow{
   position: relative;
-  margin-right: 40px;
+  margin-right: 55px;
   margin-left: 20px;
 }
 
@@ -74,7 +74,7 @@ header a > span {
 .cracker {
   position: absolute;
   top: 9px;
-  left: 188px;
+  left: 182px;
 }
 
 .header_second ul {
@@ -90,11 +90,11 @@ header a > span {
 }
 
 .header_second li:not(:last-child) {
-  padding-right: 55px;
+  padding-right: 50px;
 }
 
 .header_second li:nth-last-child(1) {
-  padding-right: 40px;
+  padding-right: 55px;
 }
 
 .leftSection {
@@ -141,9 +141,7 @@ header a > span {
   display: inline-block;
   color: #f7f7f7;
   text-transform: uppercase;
-  font-weight: 900;
   font-size: 25pt;
-  font-stretch: ultra-condensed;
 }
 
 .defaultButton  {
@@ -153,8 +151,8 @@ header a > span {
   font-size: 20pt;
   color: #f7f7f7;
   position: relative;
-  top: 250px;
-  right: 100px;
+  top: 195px;
+  left: 280px;
   padding: 15px 25px 15px 25px;
   background: #ff4200;
   border-radius: 40px;
