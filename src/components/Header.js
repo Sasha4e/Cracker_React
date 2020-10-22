@@ -2,6 +2,7 @@ import React from 'react';
 import arrow from '../img/arrow-down.png';
 import semen from '../img/semen.png';
 import elipse from '../img/elipse.png';
+import cracker from '../img/cracker.png';
 
 function Header() {
     return(
@@ -10,8 +11,6 @@ function Header() {
                     <div className = 'header_first'>
                         <div className='container'>
                             <div className='header_up'>
-                                
-                                
                                 <img className='semen' src={semen} alt='semen'></img>
                                 <img className='elipse' src={elipse} alt='semen'></img>
                                 <span className='semenText'>3</span>
@@ -21,6 +20,11 @@ function Header() {
                             </div>
                         </div> 
                     </div>
+
+                    <div className='cracker'>
+                        <img className='cracker' src={cracker} alt='Cracker logo'></img>
+                    </div>
+
                     <div className = 'header_second'>
                         <div className='container'>
                             <ul>

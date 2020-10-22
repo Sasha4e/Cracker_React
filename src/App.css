@@ -79,6 +79,14 @@ header a > span {
   font-size: 10pt;
 }
 
+.cracker {
+  
+  position: absolute;
+  top: 9px;
+  left: 188px;
+  
+}
+
 
 
 .header_second ul {
@@ -88,12 +96,13 @@ header a > span {
   list-style: none;
   text-transform: uppercase;
   font-weight: 900;
+  font-size: 11pt;
   justify-content: flex-end;
   margin-top: 0;
 }
 
 .header_second li:not(:last-child){
-  padding-right: 50px;
+  padding-right: 45px;
 }
 
 .header_second li:nth-last-child(1){
