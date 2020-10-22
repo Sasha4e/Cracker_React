@@ -10,7 +10,7 @@ body {
 }
 
 .wrapper {
-  background: url('./img/header-bg.jpg') no-repeat top / contain; 
+  background: url('../src/img/header-bg.jpg') no-repeat top / contain; 
   height: 1080px; 
 }
 
@@ -91,12 +91,12 @@ header a > span {
 
 
 .header_second ul {
-  
+  font-family: 'Fredoka One', cursive;
+  font-weight: 400;
   display: flex;
   align-items: center;
   list-style: none;
   text-transform: uppercase;
-  font-weight: 900;
   font-size: 11pt;
   justify-content: flex-end;
   margin-top: 0;
@@ -110,14 +110,21 @@ header a > span {
   padding-right: 40px;
 }
 
+
 .leftSection {
+  display: inline-block;
   height: 220px;
-  width: 684px;
+  /* margin-bottom: 5px; */
+  /* width: 684px; */
+  padding-left: 350px;
+  margin-bottom:-10px;
   color: #f7f7f7;
-  background: url('./img/greenSection.png') no-repeat center top / cover;
+  /* background: url('./img/greenSection.png') no-repeat center top / cover; */
+  background: #83aa75;
+  opacity: 0.87;
   text-align: right;
   line-height: 1.5;
-  margin-top: 82px;
+  margin-top: 68px;
   padding-top: 65px;
 }
 
@@ -133,4 +140,41 @@ header a > span {
   bottom: 235px;
   width: 2px;
   height: 215px;
+}
+
+.rightSection {
+  position: absolute;
+  top: 205px;
+  margin-left: -32px;
+  display: inline-block;
+  text-align: left;
+}
+
+.rightSection p{
+  font-family: 'Fredoka One', Regular;
+  margin-right: 20px;
+  letter-spacing: 5px;
+  display: inline-block;
+  color: #f7f7f7;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 25pt;
+  font-stretch: ultra-condensed;
+}
+
+
+
+.defaultButton  {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: 'Fredoka One', Regular;
+  font-size: 20pt;
+  color: #f7f7f7;
+  position: relative;
+  top: 250px;
+  right: 100px;
+  padding: 15px 25px 15px 25px;
+  background: #ff4200;
+  border-radius: 40px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
