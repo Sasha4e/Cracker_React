@@ -3,6 +3,7 @@ import arrow from '../img/arrow-down.png';
 import semen from '../img/semen.png';
 import elipse from '../img/elipse.png';
 import cracker from '../img/cracker.png';
+import greenSection from '../img/greenSection.png';
 
 function Header() {
     return(
@@ -26,7 +27,7 @@ function Header() {
                     </div>
 
                     <div className = 'header_second'>
-                        <div className='container'>
+                        <nav className='container'>
                             <ul>
                                 <li> <a href="#">Home</a> </li>
                                 <li> <a href="#">Abot us</a> </li>
@@ -34,10 +35,24 @@ function Header() {
                                 <li> <a href="#">Checkout</a> </li>
                                 <li> <a href="#">Account</a> </li>
                             </ul>
-                        </div>
+                        </nav>
                     </div>
                 </header>
-        </div>
+                <main>
+                    <section className='leftSection'>
+                        <p>
+                            Lorem ipsum dolor sit amet,<br></br> consectetur adipisicing elit, sed do<br></br> eiusmod tempor incididunt ut labore<br></br> et dolore magna aliqua.<br></br>Lorem ipsum dolor sit amet
+                        </p>
+                        <div className='stick'></div>
+                    </section>
+                    <section className='rightSection'>
+                        <p>
+                            mostly tastes<br></br>
+                            with freshes
+                        </p>
+                    </section>
+                </main>
+            </div>
         
     );
 }
