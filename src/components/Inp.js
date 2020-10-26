@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 function Inp(props) {
    const [count, setCount] = useState(props.initval);
    const changeVal = (event) => {
-      if (event.target.value >= 0 && )
+      if (event.target.value)
       setCount(event.target.value);
    }
 
