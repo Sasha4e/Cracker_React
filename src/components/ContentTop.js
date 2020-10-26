@@ -10,10 +10,10 @@ function ContentTop() {
                     <div className='stick'></div>
                 </section>
                 <section className='rightSection'>
-                    <p>
+                    <h2>
                         mostly tastes<br></br>
                         with freshes
-                    </p>
+                    </h2>
                     <div className='container'>
                         <a href='#' className='defaultButton'>taste it</a>
                     </div>
